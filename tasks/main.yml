@@ -18,4 +18,5 @@
   file:
     src: "{{ goss_dst_dir }}/{{ goss_bin_filename }}"
     dest: "{{ goss_dst_dir }}/{{ goss_bin_symlink }}"
+    force: true
     state: link
