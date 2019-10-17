@@ -12,7 +12,7 @@
     url: "{{ goss_url }}"
     dest: "{{ goss_dst_dir }}"
     sha256sum: "{{ goss_sha256sum }}"
-    mode: 0755
+    mode: 755
 
 - name: "Ensure that Symlink to binary file is created"
   file:
